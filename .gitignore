@@ -1,0 +1,47 @@
+# Build artefacts
+build/
+*.o *.a *.so *.dll *.dylib *.exe
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+_deps/
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/settings.json
+.idea/
+*.swp *~ *.swo
+.DS_Store
+
+# Models & large data
+*.onnx
+*.engine
+*.pt
+*.pth
+*.tflite
+*.pb
+data/
+
+# Logs & reports
+*.log
+reports/
+
+# Experiment tracking
+runs/
+wandb/
+mlruns/

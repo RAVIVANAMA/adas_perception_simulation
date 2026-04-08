@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# ONNX toolchain
+onnx>=1.15.0
+onnxruntime>=1.16.0          # CPU
+# onnxruntime-gpu>=1.16.0    # GPU (uncomment when using CUDA)
+onnxsim>=0.4.33              # graph simplification (optional)
+
+# Training infrastructure
+wandb>=0.15.0                # experiment tracking (optional)
+
+# Evaluation
+# pycocotools>=2.0.7         # COCO mAP evaluation (optional)
+
+# Data & visualisation
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+pygame>=2.5.0                # real-time ADAS demo GUI
+
+# Optional: Ultralytics YOLO (for loading .pt checkpoints)
+# ultralytics>=8.0.0
